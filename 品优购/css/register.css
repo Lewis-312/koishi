@@ -1,0 +1,139 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.header img {
+    padding-top: 10px;
+    float: left;
+}
+
+.register {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.register h3 {
+    height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0px 5px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ddd;
+}
+
+.login {
+    font-size: 14px;
+    float: right;
+}
+
+.reg-from {
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 50px;
+}
+
+.reg-from ul li label {
+    display: inline-block;
+    text-align: right;
+    width: 80px;
+}
+
+.reg-from ul li .inp {
+    width: 240px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* 实现 × 符号  */
+
+.g-right {
+    display: inline-block;
+    width: 16px;
+    height: 3px;
+    margin-bottom: 2px;
+    background: #c81523;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    -webkit-transform: rotate(45deg);
+}
+
+.g-right:after {
+    content: "/";
+    display: block;
+    width: 16px;
+    height: 3px;
+    background: #c81523;
+    -webkit-transform: rotate(-90deg);
+}
+
+.error {
+    color: #c81523;
+}
+
+.safe {
+    padding-left: 168px;
+}
+
+.safe em {
+    padding: 0px 10px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-top: 25px;
+    margin-left: 110px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    height: 34px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 14px;
+    background-color: #c81623;
+    color: #fff;
+}
+
+.mod_right {
+    text-align: center;
+}
+
+.links {
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.links a {
+    margin: 0px 10px;
+}
+
+.copyright {
+    line-height: 20px;
+}

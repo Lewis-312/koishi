@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?wqflxy');
+    src: url('../fonts/icomoon.eot?wqflxy#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?wqflxy') format('truetype'), url('../fonts/icomoon.woff?wqflxy') format('woff'), url('../fonts/icomoon.svg?wqflxy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #b1191a;
+}
+
+.sk-list {
+    float: left;
+    width: 390px;
+}
+
+.sk-list ul li {
+    float: left;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px 28px;
+}
+
+.sk-con {
+    float: left;
+}
+
+.sk-con ul li {
+    float: left;
+    font-size: 14px;
+    line-height: 47px;
+    margin-right: 45px;
+}
+
+.sk-con ul li:last-child::after {
+    font-family: 'icomoon';
+    content: '\e903';
+    margin-left: 5px;
+}
+
+.sk-bd ul li {
+    overflow: hidden;
+    float: left;
+    height: 458px;
+    width: 290px;
+    margin: 6px 13px 0px 0px;
+}
+
+.sk-bd ul li:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.sk-bd ul li:hover {
+    box-shadow: 0px 5px 3px 1px #b1191a;
+}
